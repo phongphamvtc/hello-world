@@ -7,4 +7,17 @@ def sum(x, y):
 
 print(sum(10, 6))
 
-## The code does not work. I don't know why?
+## The abow code does not work but the below code works. could you please explein the reason to me?
+
+def sum(x, y):
+    sum = x + y
+    if sum in range(15, 20):
+        return 20
+    else:
+        return sum
+
+print(sum(10, 6))
+print(sum(10, 2))
+print(sum(10, 12))
+
+# For explanation, this code is to calculate the sum of 2 numbers. If Sum in the range of (15, 20) then return to 20, otherwise, return to sum
